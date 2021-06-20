@@ -2,6 +2,11 @@
 Use rust to extend python (Rust bindings for python)
 
 
+Use of rust-cpython for generating bindings:
+
+https://github.com/dgrunwald/rust-cpython
+
+
 ## Use
 
 Build the lib:

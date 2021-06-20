@@ -1,0 +1,15 @@
+[package]
+name = "rs-bind-py"
+version = "0.1.0"
+authors = ["drguigui1 <pierre.guillaume@epita.fr>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "test_bind_lib"
+crate-type = ["cdylib"]
+
+[dependencies.cpython]
+version = "0.6"
+features = ["extension-module"]
